@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.header {
+    background-image: url('1714441330890_659551\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerBox {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* More transparency */
+    padding: 70px;
+    /* Increase size */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    background-color: #6d7fe4;
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding-left: 30px;
+    color: black;
+}
+
+.input-container svg {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+}
+
+span {
+    font-weight: 300;
+    font-size: larger;
+}
+
+button {
+    background-color: rgb(4, 4, 121);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.divider .line {
+    width: 50px;
+    border: 1px solid #ddd;
+}
+
+.divider span {
+    margin: 0 10px;
+    color: #aaa;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.social-icons img:hover {
+    opacity: 0.7;
+}
+
+p {
+    color: #777;
+}
+
+p a {
+    color: rgb(4, 4, 121);
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+svg {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 10px;
+    width: 50px;
+    color: black;
+}
